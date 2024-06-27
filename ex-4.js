@@ -13,3 +13,5 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+const onSuccess=await getJohnProfile()
+console.log(onSuccess)
